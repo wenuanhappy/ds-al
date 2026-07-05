@@ -1,0 +1,46 @@
+# ===========================================
+# 项目公共文件
+# ===========================================
+
+# Java / Spring Boot
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+!**/mvnw
+!**/mvnw.cmd
+
+# Node / Vue
+**/node_modules/
+**/dist/
+**/.env
+**/.env.local
+**/.env.production
+**/package-lock.json
+**/*.log
+**/npm-debug.log*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Docker
+images/
+dockerbk/
+mysql_data/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 备份文件
+*.bak
+*.backup
+*~
